@@ -70,12 +70,32 @@
       }
 
       .filterDiv {
-        border: 2px solid red;
+        border: 5px solid rgb(70, 64, 64);
         width: 25%;
         height: 80%;
         margin-top: 20px;
         margin-left: 8%;
       }
+      .btn button{
+        /* background-color: blue; */
+        width: 50vw;
+
+      }
+      .Cuisine_Filter{
+        text-align: center;
+        margin: 10px;
+      }
+      .cusino{
+         padding: 20px;
+      }
+      .Cost{
+        padding: 20px;
+      }
+      .Cost_Filter{
+        text-align: center;
+        margin: 10px;
+      }
+      
       /* footer css  */
       footer {
         background-color: rgb(86, 77, 64);
@@ -102,9 +122,10 @@
         <h2></h2>
       </div>
       <div class="filterDiv">
-        <h2>Filter</h2>        
+        <h2 >FILTER </h2>        
         <div class="cusino">
-        <h2>Cuisine Filter</h2>
+        <h2 class="Cuisine_Filter">Cuisine Filter</h2>
+    
         <input type="radio" id="North" name="fav_food" value="North">
         <label for="North">North Indian</label><br>
         <input type="radio" id="so" name="fav_food" value="South">
@@ -116,8 +137,8 @@
         <input type="radio" id="Stret_food" name="fav_food" value="Stret_food">
         <label for="Stret_food">Stret Food </label>
       </div>
-        <div class="cusino">
-        <h2>Cost  Filter</h2>
+        <div class="Cost">
+        <h2 class="Cost_Filter">Cost Filter</h2>
         <input type="radio">100-300
        <br>
         <input type="radio" >301-600 
@@ -128,6 +149,9 @@
         <br>
         <input type="radio" >1501-2000
    
+      </div>
+      <div class="btn">
+        <button>Apply</button>
       </div>
       </div>
     </div>
