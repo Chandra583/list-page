@@ -65,6 +65,7 @@
         width: 60%;
         height: 80%;
         margin-left: 8%;
+        margin-top: 20px;
         float: right;
       }
 
@@ -72,6 +73,7 @@
         border: 2px solid red;
         width: 25%;
         height: 80%;
+        margin-top: 20px;
         margin-left: 8%;
       }
       /* footer css  */
@@ -95,8 +97,39 @@
       </nav>
     </header>
     <div id="content">
-      <div class="contentDiv"></div>
-      <div class="filterDiv"></div>
+     
+      <div class="contentDiv">
+        <h2></h2>
+      </div>
+      <div class="filterDiv">
+        <h2>Filter</h2>        
+        <div class="cusino">
+        <h2>Cuisine Filter</h2>
+        <input type="radio" id="North" name="fav_food" value="North">
+        <label for="North">North Indian</label><br>
+        <input type="radio" id="so" name="fav_food" value="South">
+        <label for="South">South Indian</label><br>
+        <input type="radio" id="chinese" name="fav_food" value="chinese">
+        <label for="chinese">chinese </label><br>
+        <input type="radio" id="Fast_food" name="fav_food" value="Fast_food">
+        <label for="Fast_food">Fast Food </label><br>
+        <input type="radio" id="Stret_food" name="fav_food" value="Stret_food">
+        <label for="Stret_food">Stret Food </label>
+      </div>
+        <div class="cusino">
+        <h2>Cost  Filter</h2>
+        <input type="radio">100-300
+       <br>
+        <input type="radio" >301-600 
+        <br>
+        <input type="radio">601-1000
+        <br>
+        <input type="radio" >1001-1500
+        <br>
+        <input type="radio" >1501-2000
+   
+      </div>
+      </div>
     </div>
     <footer>
       <center>
