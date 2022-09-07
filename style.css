@@ -34,9 +34,9 @@ li {
 /* main css */
 
 #content {
-  background-color: aliceblue;
+  background-color: rgb(216, 228, 238);
   width: 90vw;
-  background-color: bisque;
+  background-color: rgb(240, 238, 235);
   height: 100vh;
   margin-left: 5%;
   border: 2px solid green;
@@ -45,25 +45,51 @@ li {
   margin-bottom: 10px;
 }
 .contentDiv {
-  border: 2px solid rgb(14, 17, 14);
+  /* border: 2px solid rgb(14, 17, 14); */
   width: 60%;
   height: 80%;
   margin-left: 8%;
+  margin-right: 10px;
   margin-top: 20px;
   float: right;
 }
 
+#search_bar{
+  width: 99%;
+  background-color: rgb(188, 214, 214);
+  border: 2px solid black;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.Ama_cafe{
+  background-color: rgb(150, 128, 128);
+  width: 100%;
+  height: 45%;
+  margin: 10px 0px 10px 0px;
+}
+.chandini{
+  background-color: rgb(90, 76, 76);
+  width: 100%;
+  height: 45%;
+  margin: 10px 0px 10px 0px;
+}
+
 .filterDiv {
   border: 5px solid rgb(70, 64, 64);
-  width: 25%;
+  width: 22%;
   height: 80%;
   margin-top: 20px;
   margin-left: 8%;
 }
 .btn button{
   /* background-color: blue; */
-  width: 50vw;
-
+  width: 100px;
+  display: flex;
+  position: relative;
+  float: right;
+  margin-top: 50px;
 }
 .Cuisine_Filter{
   text-align: center;
