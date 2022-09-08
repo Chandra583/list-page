@@ -153,6 +153,10 @@ li {
 .Cuisine_Filter{
   text-align: center;
   margin: 10px;
+  color: rgb(228, 127, 13);
+  background-color: rgb(30, 32, 32);
+  border: 2px solid rgb(241, 232, 232);
+  border-radius: 8px;
 }
 .cusino{
    padding: 20px;
@@ -163,11 +167,29 @@ li {
 .Cost_Filter{
   text-align: center;
   margin: 10px;
+  color: rgb(228, 127, 13);
+  background-color: rgb(30, 32, 32);
+  border: 2px solid rgb(241, 232, 232);
+  border-radius: 8px;
+
 }
 .about{
   padding: 20px;
   display: flex;
   flex-direction: row;
+}
+.Ama{
+  color: rgb(138, 132, 172);
+  text-align: center;
+  
+  /* margin-left:50px ; */
+}
+
+.chowk{
+  color: rgb(241, 6, 6);
+  /* text-align: center
+  ; */
+  margin-left:50px ;
 }
 .snaks{
   background-color: green;
